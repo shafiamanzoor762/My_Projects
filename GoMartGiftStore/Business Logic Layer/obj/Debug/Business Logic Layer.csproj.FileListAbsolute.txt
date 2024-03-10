@@ -1,0 +1,9 @@
+E:\VPprojects\GoMartGiftStore\Business Logic Layer\bin\Debug\Business Logic Layer.dll
+E:\VPprojects\GoMartGiftStore\Business Logic Layer\bin\Debug\Business Logic Layer.pdb
+E:\VPprojects\GoMartGiftStore\Business Logic Layer\bin\Debug\Data Access Layer.dll
+E:\VPprojects\GoMartGiftStore\Business Logic Layer\bin\Debug\Data Access Layer.pdb
+E:\VPprojects\GoMartGiftStore\Business Logic Layer\obj\Debug\Business Logic Layer.csproj.AssemblyReference.cache
+E:\VPprojects\GoMartGiftStore\Business Logic Layer\obj\Debug\Business Logic Layer.csproj.CoreCompileInputs.cache
+E:\VPprojects\GoMartGiftStore\Business Logic Layer\obj\Debug\Business Logic Layer.csproj.CopyComplete
+E:\VPprojects\GoMartGiftStore\Business Logic Layer\obj\Debug\Business Logic Layer.dll
+E:\VPprojects\GoMartGiftStore\Business Logic Layer\obj\Debug\Business Logic Layer.pdb

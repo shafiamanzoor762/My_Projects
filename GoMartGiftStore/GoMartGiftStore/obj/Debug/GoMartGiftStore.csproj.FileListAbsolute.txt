@@ -1,0 +1,40 @@
+E:\VPproject\GoMartGiftStore\GoMartGiftStore\bin\Debug\GoMartGiftStore.exe.config
+E:\VPproject\GoMartGiftStore\GoMartGiftStore\bin\Debug\GoMartGiftStore.exe
+E:\VPproject\GoMartGiftStore\GoMartGiftStore\bin\Debug\GoMartGiftStore.pdb
+E:\VPproject\GoMartGiftStore\GoMartGiftStore\bin\Debug\Bunifu_UI_v1.52.dll
+E:\VPproject\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.csproj.AssemblyReference.cache
+E:\VPproject\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.SignUp.resources
+E:\VPproject\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.Welcome.resources
+E:\VPproject\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.Properties.Resources.resources
+E:\VPproject\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.Login.resources
+E:\VPproject\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.csproj.GenerateResource.cache
+E:\VPproject\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.csproj.CoreCompileInputs.cache
+E:\VPproject\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.csproj.CopyComplete
+E:\VPproject\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.exe
+E:\VPproject\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.pdb
+E:\VPproject\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.Home.resources
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\bin\Debug\GoMartGiftStore.exe.config
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\bin\Debug\GoMartGiftStore.exe
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\bin\Debug\GoMartGiftStore.pdb
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\bin\Debug\Bunifu_UI_v1.52.dll
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.csproj.AssemblyReference.cache
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.Home.resources
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.Welcome.resources
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.Properties.Resources.resources
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.Login.resources
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.csproj.GenerateResource.cache
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.csproj.CoreCompileInputs.cache
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.csproj.CopyComplete
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.exe
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.pdb
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.Forgot.resources
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\bin\Debug\Business Logic Layer.dll
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\bin\Debug\Data Access Layer.dll
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\bin\Debug\Business Logic Layer.pdb
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\bin\Debug\Data Access Layer.pdb
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.LoginAdmin.resources
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.SignUpAdmin.resources
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.AdminHome.resources
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.SignUp.resources
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.Start.resources
+E:\VPprojects\GoMartGiftStore\GoMartGiftStore\obj\Debug\GoMartGiftStore.Temp.resources

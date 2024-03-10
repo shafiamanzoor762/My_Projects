@@ -1,0 +1,6 @@
+E:\VPprojects\GoMartGiftStore\Data Access Layer\bin\Debug\Data Access Layer.dll
+E:\VPprojects\GoMartGiftStore\Data Access Layer\bin\Debug\Data Access Layer.pdb
+E:\VPprojects\GoMartGiftStore\Data Access Layer\obj\Debug\Data Access Layer.csproj.AssemblyReference.cache
+E:\VPprojects\GoMartGiftStore\Data Access Layer\obj\Debug\Data Access Layer.csproj.CoreCompileInputs.cache
+E:\VPprojects\GoMartGiftStore\Data Access Layer\obj\Debug\Data Access Layer.dll
+E:\VPprojects\GoMartGiftStore\Data Access Layer\obj\Debug\Data Access Layer.pdb
