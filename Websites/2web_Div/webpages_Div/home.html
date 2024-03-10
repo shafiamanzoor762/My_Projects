@@ -1,0 +1,544 @@
+<html>
+
+<head>
+  <style>
+    body {
+      font-size: 28px;
+    }
+
+    .header {
+      background: #000000;
+      color: rgb(255, 255, 255);
+      display: flex;
+      width: 100%;
+      height: 150px;
+      margin: 2px auto
+    }
+
+    .A {
+      width: 28%;
+      background-color: rgb(0, 0, 0);
+      height: 120px;
+      min-width: 100px;
+      max-width: 150px;
+    }
+
+    .B {
+      width: 28%;
+      margin-left: 2%;
+      background-color: rgb(0, 0, 0);
+      padding: 1%;
+      margin-top: 1%;
+      height: 70px;
+      min-width: 200px;
+      max-width: 400px;
+      align-items: right;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #000000;
+      position: -webkit-sticky;
+      /* Safari */
+      position: sticky;
+      top: 0;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 20px 47px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #6a6767;
+    }
+
+    .active {
+      background-color: #4CAF50;
+    }
+
+    #wrapper {
+      background: rgb(255, 255, 255);
+      width: 100%;
+      height: 2000px;
+      margin-top: 0px
+    }
+
+    marquee {
+      font-size: 30px;
+      color: rgb(255, 0, 0);
+      font-family: 'Lucida Sans'
+    }
+
+    .w1 {
+      display: flex;
+      background: rgb(0, 0, 0);
+      width: 100%;
+      height: 515px;
+      margin: 10px auto
+    }
+
+    .w2 {
+      display: flex;
+      background: rgb(255, 255, 255);
+      width: 100%;
+      height: 480px;
+      margin: 10px auto
+    }
+
+    .content {
+      width: 28%;
+      margin-left: 1%;
+      background-color: rgb(0, 0, 0);
+      padding: 1%;
+      margin-top: 3%;
+      height: 390px;
+      min-width: 120px;
+      max-width: 345px;
+      /* font-size: 17px; */
+      color: rgb(255, 255, 255);
+      font-size: 18px;
+      /* font-family:josefin sans,Sans-serif; */
+    }
+
+    .content>h4 {
+      font-family: josefin sans, Sans-serif;
+    }
+
+    .date_time {
+      line-height: 1.3em;
+      font-size: 12px;
+      margin-bottom: 13px;
+      color: #adadad;
+    }
+
+    .middle1 {
+      width: 28%;
+      margin-left: 2%;
+      background-color: rgb(255, 255, 255);
+      padding: 0.8%;
+      margin-top: 3%;
+      height: 370px;
+      min-width: 400px;
+      max-width: 600px;
+      font-size: 17px;
+    }
+
+    /* .middle1 img {
+      border-radius: 20px;
+    }
+
+    .middle1>h2:hover {
+      font-size: 26px;
+      color: rgb(182, 10, 10);
+    }
+
+    .middle1>img:hover {
+      width: 93%;
+      height: 63%;
+      box-shadow: 3px 3px 3px 3px rgb(0, 0, 0);
+    } */
+
+    .middle2 {
+      width: 29%;
+      margin-left: 1.8%;
+      background-color: rgb(255, 255, 255);
+      padding: 1%;
+      margin-top: 1%;
+      height: 80px;
+      font-size: 17px;
+      display: flex;
+    }
+
+    .child {
+      display: flex;
+      background: rgb(255, 255, 255);
+      width: 85%;
+      height: 130px;
+      margin: 2px auto
+    }
+
+    .middle3 {
+      width: 22%;
+      margin-left: 1.5%;
+      background-color: rgb(255, 255, 255);
+      padding: 0.5%;
+      margin-top: 3%;
+      height: 370px;
+      min-width: 200px;
+      max-width: 400px;
+      font-size: 17px;
+    }
+
+    /* .middle3 img {
+      border-radius: 10px;
+    }
+
+    .middle3>h2:hover {
+      font-size: 26px;
+      color: rgb(182, 10, 10);
+    }
+
+    .middle3>img:hover {
+      width: 93%;
+      height: 47%;
+      box-shadow: 3px 3px 3px 3px rgb(0, 0, 0);
+    } */
+
+    .C {
+      color: rgb(255, 255, 255);
+    }
+
+    #footer {
+      display: flex;
+      background: rgb(0, 0, 0);
+      width: 100%;
+      height: 330px;
+      margin-top: 0px;
+    }
+
+    .f1 {
+      display: flex;
+      background: rgb(0, 0, 0);
+      width: 40%;
+      height: 300px;
+      margin: 10px
+    }
+
+    .f2 {
+      display: flex;
+      background: rgb(0, 0, 0);
+      width: 13%;
+      height: 200px;
+      margin-left: 100px;
+      margin-right: 350px;
+      margin-top: 0px
+    }
+
+    .blink {
+      animation: blinker 1.5s linear infinite;
+      color: rgb(255, 1, 1);
+      font-family: sans-serif;
+    }
+
+    @keyframes blinker {
+      5% {
+        opacity: 0;
+      }
+    }
+
+    body {
+      font-family: "Lato", sans-serif;
+    }
+
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      /* z-index: 1; */
+      top: 0;
+      left: 1350px;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+      float: right;
+    }
+
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+      color: #f1f1f1;
+      background-color: rgb(54, 53, 49);
+    }
+
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {
+        padding-top: 15px;
+      }
+
+      .sidenav a {
+        font-size: 18px;
+      }
+    }
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <title>Home | News World</title>
+  <div style="background-color: #000000; width:100%; height:100px; position:sticky; display:flex; margin-top: -8px;">
+    <a href="./home.html"><img src="../images/title.PNG" Style="margin-left: 25%; width:35%;"></a>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <center>
+        <a href="./home.html">HOME</a>
+        <a href="./Headlines.html">LATEST</a>
+        <a href="./Pakistan.html">PAKISTAN</a>
+        <a href="./Health.html">HEALTH</a>
+        <a href="./Sports.html">SPORTS</a>
+        <a href="./Amazing.html">AMAZING</a>
+        <a href="./Sci&Tec.html">TECHNOLIGY</a>
+        <a href="./Login.html">LOGIN</a>
+      </center>
+    </div>
+    <span style="font-size:60px;cursor:pointer; margin-left: 17%;color: #ffffff; "
+      onclick="openNav()"><b>&#9776;</b></span><br>
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "350px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+  <!-- <table>
+        <td bgcolor="#800000" style=" border:6px rgb(228, 222, 59) solid;border-radius:20px ; border-style:double;">
+          <h2 class="blink" style="color:#FFF200 ; font-family:Gill Sans">
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HEADLINES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </h2>
+        </td>
+        <td>
+          <marquee scrollamount="10" direction="left" height="100" bgcolor="#999DA0">
+            <div style="width:100%; height:100%;"><br>1. Imran Khan’s nephew Hassan Niazi handed over to Lahore Police
+              on transitory remand.
+              ________ 2. India summons Canadian High Commissioner over Pro-Khalistan protests.
+              ________ 3. Balochistan rocked by 4.3 magnitude earthquake.
+              ________ 4. Polling for local government elections underway in 15 districts of Sindh.
+              ________ 5. Punjab, KP polls: PM Shehbaz terms President Alvi’s letter as ‘PTI press release.
+              ________ 6. Police officer suspended for manhandling Hindu man in Sindh over 'Ramadan Ordinance
+              violation'.
+              ________ 7. Pakistani public officer seeks permission to start corruption in letter to PM.
+              ________8. Pakistan court sentences man to death for sharing blasphemous content in WhatsApp group.
+              </p>
+            </div><br>
+        </td>
+      </tr>
+      </marquee>
+    </table> -->
+  <div id="wrapper">
+    <div class="w1">
+      <div class="content"><br><img src="../images/homePage/Gold_01.jpg" width="90%"><br>
+        <h4>Gold became expensive in the world market became cheaper in Pakistan - Money</h4>
+        <p class="date_time">March 11, 2023 11:17 am</p>
+        According to the data released by Saraf and Jewelers Association, a slight decrease was observed in the
+        price of gold in Pakistan, with a decrease of Rs. 200 per tolal to Rs. Done.
+      </div>
+      <div class="content"><br><img src="../images/homePage/PIAs.jpg" width="90%">
+        <h4>First phase of online audit completed for PIAs resumption</h4>
+        <p class="date_time">March 11, 2023 11:17 am</p>PIA was
+        instructed, after those restrictions, to get safety registration audits done from the International Air
+        Transport Association (IATA) in order to regain international.
+      </div>
+      <div class="content"><img src="../images/homePage/imran_khan.jpg" width="90%" height="200">
+        <h4>The Supreme Court has scheduled for hearing the petition to accept the resignation of the members of the
+          assembly of (PTI)</h4>
+        <p class="date_time">March 11, 2023 11:17 am</p>A 3-member bench headed by Chief Justice Umar Atta Bandial
+        of the Supreme Court of Pakistan will hold a hearing on March 15.
+      </div>
+      <div class="content"><img src="../images/homePage/PeshawarZalmis.jpg" width="85%" height="200">
+        <h4>Peshawar Zalmi’s target of 243 runs to win Multan Sultans – Sports</h4>
+        <p class="date_time">March 11, 2023 11:17 am</p> Azam
+        and Saeem Ayub scored brilliant half-centuries, a partnership of 134 runs was also established between the
+        two.
+      </div>
+    </div>
+
+    <!-- <video height="400px" width="40%" controls autoplay>
+        <source src="../audioVideo/headlines.mp4" type="video/mp4">
+      </video>
+      <iframe src="./more_news.html" width="59%" height="400"></iframe> -->
+
+    <div class="w2">
+      <div class="middle1">
+        <h2>| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pakistan</h2><img
+          src="../images/homePage/State-Bank-Governer.jpg" width="90%">
+        <h4>State Bank Governor Gets Closer to IMF Deal Money</h4>March 11, 2023 7:16 am
+      </div>
+      <div class="middle1">
+        <h2>| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; World</h2><img
+          src="../images/homePage/8-killed-in-shooting.jpg" width="90%">
+        <h4>8 killed in shooting inside church in Germany-Global</h4>March 10, 2023 9:02 pm
+      </div>
+      <div class="middle1">
+        <h2>| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Business</h2><img src="../images/homePage/Bulb.jpg" width="390"
+          height="230">
+        <h4>Electricity has been made more expensive for the people of Karachi – Money</h4>March 10, 2023 7:14 pm
+      </div>
+    </div>
+    <hr>
+    <div class="child">
+      <div class="middle2">
+        <div><img src="../images/homePage/imran_Niazi.jpg" width="100%"></div>
+        <div style="margin-left: 4px;">Imran Niazi is still the darling of many people including media, judiciary,
+          Saeed Ghani<br>March 11, 2023 7:16 am</div>
+      </div>
+
+      <div class="middle2">
+        <div><br><img src="../images/homePage/5000-Riyal-fine-and-jail_1.jpg" width="100%"></div>
+        <div style="margin-left: 4px;">5000 Riyal fine and jail sentence for hanging clothes in balconies, Muscat
+          Municipality<br> March 10, 2023 7:01 pm</div>
+      </div>
+
+      <div class="middle2">
+        <div style="width:180"><img src="../images/homePage/PakistanStockExchangeMoney.jpg" width="100%"></div>
+        <div style="margin-left: 5px;">Positive end to business in Pakistan Stock Exchange <br> March 10, 2023 5:13 pm
+        </div>
+      </div>
+    </div>
+
+    <div class="child">
+      <div class="middle2">
+        <div><img src="../images/homePage/Vandalism-and-Terrorism.jpg" width="90%"></div>
+        <div style="margin-left: 4px;">Vandalism and Terrorism Case: Investigation involving Senator Shahzad Wasim and
+          Raja Khurram Nawaz March 11, 2023 5:00 pm</div>
+      </div>
+      <div class="middle2">
+        <div><img src="../images/homePage/Saudi-ArabiaAnd_Iran_agreement_1.jpg" width="100%"></div>
+        <div style="margin-left: 4px;">Saudi Arabia and Iran reached an agreement to restore diplomatic relations
+          March 10, 2023 5:00 pm</div>
+      </div>
+      <div class="middle2">
+        <div><img src="../images/homePage/Gold_01.jpg" width="90%"></div>
+        <div style="margin-left: 4px;">Gold became expensive in the world market, became cheaper in Pakistan<br> March
+          10, 2023 3:12 pm</div>
+      </div>
+    </div>
+    <div class="child">
+      <div class="middle2">
+        <div style="width:180"><img src="../images/homePage/imran_khan.jpg" width="100%"></div>
+        <div style="margin-left: 4px;">Russia’s use of hypersonic missiles 5 times faster than sound against Ukraine
+          <br> March 10, 2023 2:58 pm
+        </div>
+      </div>
+      <div class="middle2">
+        <div><img src="../images/homePage/Russias_use_hypersonic.jpg" width="90%"></div>
+        <div style="margin-left: 4px;">Russia’s use of hypersonic missiles 5 times faster than sound against
+          Ukraine<br>March 10, 2023 2:58 pm</div>
+      </div>
+      <div class="middle2">
+        <div style="width:180"><img src="../images/homePage/DollarDepreciationMoney.jpg" width="90%"></div>
+        <div>Advances of Rs.; Dollar started getting cheaper <br> March 10, 2023 1:10 pm</div>
+      </div>
+    </div>
+    <div class="child">
+      <div class="middle2">
+        <div style="width:210"><img src="../images/homePage/The_entire_planning.jpg" width="100%" height="80"></div>
+        <div style="margin-left: 4px;">The entire planning to use Zul Shah’s dead body was done by Yasmeen Rashid,
+          Uzma Bukhari<br>March 11, 2023 9:16 am</div>
+      </div>
+      <div class="middle2">
+        <div style="width:210"><img src="../images/homePage/8-killed-in-shooting.jpg" width="90%"></div>
+        <div style="margin-left: 4px;">8 killed in shooting inside church in Germany<br> March 10, 2023 9:02 pm</div>
+      </div>
+      <div class="middle2">
+        <div style="width:290"><img src="../images/homePage/InflationStorm39.jpg" width="100%"></div>
+        <div style="margin-left: 4px;">Inflation Storm; 39 basic commodities including flour, sugar, oil became more
+          expensive March 10, 2023 11:08 am</div>
+      </div>
+    </div>
+    <hr>
+    <div style="display:flex; background:  rgb(255, 255, 255); width:100%;height: 480px; margin:10px auto">
+      <div class="middle3">
+        <h2>| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sports</h2><img src="../images/homePage/TheRealPCB.jpg"
+          width="90%" height="170px">
+        <h4>The names of the support staff for the Pakistan vs Afghanistan T20 series have been revealed<br>March 14,
+          2023 1:35 pm
+      </div>
+      <div class="middle3">
+        <h2>| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Health</h2><img src="../images/health/How-much-weight.jpg"
+          width="90%">
+        <h4>How much weight can you lose by drinking more coffee?<br>March 15, 2023 3:29 pm
+      </div>
+      <div class="middle3">
+        <h2>| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sci & Tec</h2><img src="../images/Sci&Tec/Amazing-text-to.jpg"
+          width="90%">
+        <h4>Amazing text-to-video tool coming next week<br>March 15, 2023 2:06 am
+      </div>
+      <div class="middle3">
+        <h2>| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Amazing</h2><img src="../images/Amazing/world_record.jpg"
+          width="90%" height="160px">
+        <h4>Guinness World Record for Highest Skateboard Stunt <br>March 23, 2023 5:41 am
+      </div>
+    </div>
+  </div><br>
+  <div id="footer">
+    <div class="f1">
+      <table width="100%" class="C">
+        <tr>
+          <th align="right">About us</th>
+          <th colspan="10" align="right"><a href="./Pakistan.html" class=""
+              style="color:rgb(255, 255, 255) ;">Pakistan</a></th>
+        </tr>
+        <tr>
+          <th align="right">Privacy Policy</th>
+          <th colspan="10" align="right"><a href="./Amazing.html" style="color:rgb(255, 255, 255) ;">Amazing</a></th>
+        </tr>
+        <tr>
+          <th align="right"><a color="red" href="./Login.html" style="color: rgb(255, 255, 255) ;">Contact Us</a></th>
+          <th colspan="5" align="right"><a href="./Headlines.html" style="color:rgb(255, 255, 255) ;">Latest</a></th>
+        </tr>
+        <tr>
+          <th colspan="5" align="right"><a href="./sports.html" style="color: rgb(255, 255, 255) ;"> Sports</a></th>
+        </tr>
+        <tr>
+          <th colspan="5" align="right"><a href="./Sci&Tec.html" style="color: rgb(255, 255, 255);">Technology</a>
+          </th>
+        </tr>
+        <tr>
+          <th colspan="5" align="right"><a href="./health.html" style="color: rgb(255, 255, 255);">Health</a></th>
+        </tr>
+        <tr>
+          <th colspan="5" align="right"><a href="./Amazing.html" style="color:rgb(255, 255, 255);">Amazing</a></th>
+        </tr>
+      </table>
+    </div>
+    <div class="f2">
+      <table width="200" height="190" class="C">
+        <tr>
+          <td><br><a href="https://youtube.com"><img src="../images/footer/header/youtube_button.jpg"
+                width="28%"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://twitter.com"><img src="../images/footer/header/twitter_button.jpg" width="25%"></a>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="https://instagram.com"><img src="../images/footer/header/instagram_button.jpg"
+                width="25%"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://facebook.com"><img src="../images/footer/header/facebook_button.jpg" width="25%"></a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>

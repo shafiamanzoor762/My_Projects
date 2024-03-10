@@ -1,0 +1,309 @@
+<html>
+
+<head>
+  <style>
+    body {
+      font-size: 28px;
+    }
+
+    .header {
+      background: #000000;
+      ;
+      display: flex;
+      width: 100%;
+      height: 175px;
+      margin: 2px;
+      margin-top: 0px
+    }
+
+    .A {
+      width: 28%;
+      background-color: rgb(0, 0, 0);
+      height: 120px;
+      min-width: 100px;
+      max-width: 150px;
+    }
+
+    .B {
+      width: 28%;
+      margin-left: 2%;
+      background-color: rgb(0, 0, 0);
+      padding: 0.5%;
+      margin-top: 0px;
+      height: 150px;
+      min-width: 150px;
+      max-width: 350px;
+      align-items: right;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      position: -webkit-sticky;
+      /* Safari */
+      position: sticky;
+      top: 0;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 20px 47px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #6a6767;
+    }
+
+    .active {
+      background-color: #4CAF50;
+    }
+
+    .C {
+      color: rgb(255, 255, 255);
+    }
+
+    .group {
+      display: flex;
+      background: rgb(255, 255, 255);
+      width: 100%;
+      height: 385px;
+      margin: 10px auto
+    }
+
+    .content {
+      width: 28%;
+      margin-left: 1%;
+      background-color: rgb(255, 255, 255);
+      padding: 1%;
+      margin-top: 10px;
+      height: 330px;
+      min-width: 120px;
+      max-width: 345px;
+      font-size: 17px;
+      color: rgb(0, 0, 0)
+    }
+
+    #footer {
+      display: flex;
+      background: rgb(0, 0, 0);
+      width: 100%;
+      height: 330px;
+      margin-top: 0px;
+    }
+
+    .C {
+      color: rgb(255, 255, 255);
+    }
+
+    .f1 {
+      display: flex;
+      background: rgb(0, 0, 0);
+      width: 40%;
+      height: 300px;
+      margin: 10px
+    }
+
+    .f2 {
+      display: flex;
+      background: rgb(0, 0, 0);
+      width: 13%;
+      height: 200px;
+      margin-left: 100px;
+      margin-right: 350px;
+      margin-top: 0px
+    }
+
+    body {
+      font-family: "Lato", sans-serif;
+    }
+
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      /* z-index: 1; */
+      top: 0;
+      left: 1340px;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+      float: right;
+    }
+
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+      color: #f1f1f1;
+      background-color: rgb(54, 53, 49);
+    }
+
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {
+        padding-top: 15px;
+      }
+
+      .sidenav a {
+        font-size: 18px;
+      }
+    }
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <title>Sci&Tech | News World</title>
+  <div id="main" style="width:95%;height: 1600px; margin:0 auto">
+
+    <div style="background-color: #000000; width:100%; height:100px; position:sticky; display:flex; margin-top: -8px;">
+      <a href="./home.html"><img src="../images/title.PNG" Style="margin-left: 25%; width:35%;"></a>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <center>
+          <a href="./home.html">HOME</a>
+          <a href="./Headlines.html">LATEST</a>
+          <a href="./Pakistan.html">PAKISTAN</a>
+          <a href="./Health.html">HEALTH</a>
+          <a href="./Sports.html">SPORTS</a>
+          <a href="./Amazing.html">AMAZING</a>
+          <a href="./Sci&Tec.html">TECHNOLIGY</a>
+          <a href="./Login.html">LOGIN</a>
+        </center>
+      </div>
+      <span style="font-size:60px;cursor:pointer; margin-left: 17%;color: #ffffff; "
+        onclick="openNav()"><b>&#9776;</b></span><br>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "350px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+
+    <div id="wrapper" style=" background: rgb(255, 255, 255);width:100%;height: 1185px;margin-top:0px">
+      <div class="group">
+        <div class="content"><br><img src="../images/Sci&Tec/The-worst-economic.jpg" width="80%" height="180">
+          <h4>The worst economic crisis, Meta announced to cut 10,000 jobs</h4>March 15, 2023 10:11 am
+        </div>
+        <div class="content"><br><img src="../images/Sci&Tec/Amazing-text-to.jpg" width="85%" height="170">
+          <h4>Amazing text-to-video tool coming next week</h4>March 15, 2023 2:06 am
+        </div>
+        <div class="content"><img src="../images/Sci&Tec/Which-device-is-going.png" width="90%" height="170">
+          <h4>Which device is going to replace the iPhone?</h4>March 13, 2023 9:51 pm
+        </div>
+        <div class="content"><img src="../images/Sci&Tec/Who-will-be-able.jpg" width="85%" height="170">
+          <h4>Who will be able to live in Elon Musk's new city?</h4>March 13, 2023 1:47 pm
+        </div>
+      </div>
+      <div class="group">
+        <div class="content"><br><img src="../images/Sci&TecPage/After-USA-and-Canada.jpg" width="300" height="200">
+          <h4>After USA and Canada, Belgium also banned TikTok</h4>March 12, 2023 5:37 pm
+        </div>
+        <div class="content"><br><img src="../images/Sci&TecPage/Yellow-iPhone-social.jpg" width="85%" height="190">
+          <h4>Yellow iPhone social media buzz for summer</h4>March 12, 2023 1:36 pm
+        </div>
+        <div class="content"><img src="../images/Sci&TecPage/Cheapest-Netflix-packages.jpg" width="85%" height="170">
+          <h4>Cheapest Netflix packages introduced in Pakistan</h4>March 11, 2023 9:25 pm
+        </div>
+        <div class="content"><img src="../images/Sci&TecPage/What-new-feature-is.png" width="80%" height="170">
+          <h4>What new feature is WhatsApp going to introduce now?</h4>March 11, 2023 5:22 pm
+        </div>
+      </div>
+      <div class="group">
+        <div class="content"><br><img src="../images/Sci&TecPage/If-you-want-to.jpg" width="300" height="200">
+          <h4>If you want to reduce the AC bill by thousands of rupees, then do not make this small mistake!</h4>March
+          11, 2023 1:13 am
+        </div>
+        <div class="content"><br><img src="../images/Sci&TecPage/22-Million-Followersjpg.jpg" width="83%" height="200">
+          <h4>22 Million Followers on Jannat Mirza's TikTok - Lifestyle</h4>March 10, 2023 9:09 pm
+        </div>
+        <div class="content"><img src="../images/Sci&Tec/Which-device-is-going.png" width="90%" height="170">
+          <h4>Which device is going to replace the iPhone?</h4>March 13, 2023 9:51 pm
+        </div>
+        <div class="content"><img src="../images/Sci&Tec/Amazing-text-to.jpg" width="85%" height="170">
+          <h4>Amazing text-to-video tool coming next week</h4>March 15, 2023 2:06 am
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="f1">
+        <table width="100%" class="C">
+          <tr>
+            <th align="right">About us</th>
+            <th colspan="10" align="right"><a href="./Pakistan.html" class=""
+                style="color:rgb(255, 255, 255) ;">Pakistan</a></th>
+          </tr>
+          <tr>
+            <th align="right">Privacy Policy</th>
+            <th colspan="10" align="right"><a href="./Amazing.html" style="color:rgb(255, 255, 255) ;">Amazing</a></th>
+          </tr>
+          <tr>
+            <th align="right"><a color="red" href="./Login.html" style="color: rgb(255, 255, 255) ;">Contact Us</a></th>
+            <th colspan="5" align="right"><a href="./Headlines.html" style="color:rgb(255, 255, 255) ;">Latest</a></th>
+          </tr>
+          <tr>
+            <th colspan="5" align="right"><a href="./sports.html" style="color: rgb(255, 255, 255) ;"> Sports</a></th>
+          </tr>
+          <tr>
+            <th colspan="5" align="right"><a href="./Sci&Tec.html" style="color: rgb(255, 255, 255);">Technology</a>
+            </th>
+          </tr>
+          <tr>
+            <th colspan="5" align="right"><a href="./health.html" style="color: rgb(255, 255, 255);">Health</a></th>
+          </tr>
+          <tr>
+            <th colspan="5" align="right"><a href="./Amazing.html" style="color:rgb(255, 255, 255);">Amazing</a></th>
+          </tr>
+        </table>
+      </div>
+      <div class="f2">
+        <table width="200" height="190" class="C">
+          <tr>
+            <td><br><a href="https://youtube.com"><img src="../images/footer/header/youtube_button.jpg"
+                  width="28%"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://twitter.com"><img src="../images/footer/header/twitter_button.jpg" width="25%"></a>
+            </td>
+          </tr>
+          <tr>
+            <td><a href="https://instagram.com"><img src="../images/footer/header/instagram_button.jpg"
+                  width="25%"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://facebook.com"><img src="../images/footer/header/facebook_button.jpg" width="25%"></a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

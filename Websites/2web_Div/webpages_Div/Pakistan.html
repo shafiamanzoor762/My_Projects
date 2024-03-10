@@ -1,0 +1,361 @@
+<html>
+
+<head>
+    <style>
+        body {
+            font-size: 28px;
+        }
+
+        .header {
+            background: #000000;
+            ;
+            display: flex;
+            width: 100%;
+            height: 175px;
+            margin: 2px;
+            margin-top: 0px
+        }
+
+        .A {
+            width: 28%;
+            background-color: rgb(0, 0, 0);
+            height: 120px;
+            min-width: 100px;
+            max-width: 150px;
+        }
+
+        .B {
+            width: 28%;
+            margin-left: 2%;
+            background-color: rgb(0, 0, 0);
+            padding: 0.5%;
+            margin-top: 0px;
+            height: 150px;
+            min-width: 150px;
+            max-width: 350px;
+            align-items: right;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: -webkit-sticky;
+            /* Safari */
+            position: sticky;
+            top: 0;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 20px 47px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #6a6767;
+        }
+
+        .active {
+            background-color: #4CAF50;
+        }
+
+        .C {
+            color: rgb(255, 255, 255);
+        }
+
+        .group {
+            display: flex;
+            background: rgb(255, 255, 255);
+            width: 100%;
+            height: 385px;
+            margin: 10px auto
+        }
+
+        .content {
+            width: 28%;
+            margin-left: 1%;
+            background-color: rgb(255, 255, 255);
+            padding: 1%;
+            margin-top: 10px;
+            height: 330px;
+            min-width: 120px;
+            max-width: 345px;
+            font-size: 17px;
+            color: rgb(0, 0, 0)
+        }
+
+        #footer {
+            display: flex;
+            background: rgb(0, 0, 0);
+            width: 100%;
+            height: 330px;
+            margin-top: 0px;
+        }
+
+        .C {
+            color: rgb(255, 255, 255);
+        }
+
+        .f1 {
+            display: flex;
+            background: rgb(0, 0, 0);
+            width: 40%;
+            height: 300px;
+            margin: 10px
+        }
+
+        .f2 {
+            display: flex;
+            background: rgb(0, 0, 0);
+            width: 13%;
+            height: 200px;
+            margin-left: 100px;
+            margin-right: 350px;
+            margin-top: 0px
+        }
+
+        body {
+            font-family: "Lato", sans-serif;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            /* z-index: 1; */
+            top: 0;
+            left: 1340px;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            float: right;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+            background-color: rgb(54, 53, 49);
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <title>Pakistan | News World</title>
+    <div id="main" style="width:95%;height: 1600px; margin:0 auto">
+
+        <div
+            style="background-color: #000000; width:100%; height:100px; position:sticky; display:flex; margin-top: -8px;">
+            <a href="./home.html"><img src="../images/title.PNG" Style="margin-left: 25%; width:35%;"></a>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <center>
+                    <a href="./home.html">HOME</a>
+                    <a href="./Headlines.html">LATEST</a>
+                    <a href="./Pakistan.html">PAKISTAN</a>
+                    <a href="./Health.html">HEALTH</a>
+                    <a href="./Sports.html">SPORTS</a>
+                    <a href="./Amazing.html">AMAZING</a>
+                    <a href="./Sci&Tec.html">TECHNOLIGY</a>
+                    <a href="./Login.html">LOGIN</a>
+                </center>
+            </div>
+            <span style="font-size:60px;cursor:pointer; margin-left: 17%;color: #ffffff; "
+                onclick="openNav()"><b>&#9776;</b></span><br>
+        </div>
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "350px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+
+        <div id="wrapper" style=" background: rgb(255, 255, 255);width:100%;height: 1185px;margin-top:0px">
+            <div class="group">
+                <div class="content"><br>
+                    <center><img src="../images/Pakistan/Sindh-Decision-to-detain-PTI.jpg" width="90%" height="190">
+                        <h4>Sindh: Decision to detain PTI leaders and<br>workers under MPO – Pakistan</h4>May 13, 2023
+                        4:38 am
+                    </center>
+                </div>
+                <div class="content"><br>
+                    <center><img src="../images/Pakistan/Pakistan-Army-killed-5-terrorists.jpg" width="90%"
+                            height="170">
+                        <h4>Pakistan Army killed 5 terrorists in <br>Hoshab – Pakistan
+                        </h4>May 13, 2023 2:36 am
+                    </center>
+                </div>
+                <div class="content">
+                    <center><img src="../images/Pakistan/NAB-initiates-investigation-against.img" width="90%"
+                            height="170">
+                        <h4>NAB initiates investigation against Murad<br> Saeed – Pakistan
+                        </h4>May 13, 2023 12:35 am
+                    </center>
+                </div>
+                <div class="content">
+                    <center><img src="../images/Pakistan/Islamabad-The-head-constable.jpg" width="85%" height="170">
+                        <h4>Islamabad: The head constable was martyred<br> by the firing of the accused – Pakistan</h4>
+                        May 12, 2023 10:35 pm
+                </div>
+            </div>
+            <div class="group">
+                <div class="content"><br>
+                    <center><img src="../images/Pakistan/Poisonous-gas-kills-4-laborers.jpg" width="300" height="200">
+                        <h4>Poisonous gas kills 4 laborers in Multan<br> – Pakistan</h4>
+                        May 12, 2023 8:34 pm
+                    </center>
+                </div>
+                <div class="content"><br>
+                    <center><img src="../images/Pakistan/There-is-no-question-of-martial.jpg" width="85%" height="190">
+                        <h4>There is no question of martial law in the<br> country, Spokesman Pakistan Army – Pakistan
+                        </h4>May 12, 2023 6:34 pm
+                    </center>
+                </div>
+                <div class="content">
+                    <center><img src="../images/Pakistan/High-level-transfers-in-Khyber.jpg" width="85%" height="170">
+                        <h4>High-level transfers in Khyber Pakhtunkhwa<br> Police – Pakistan
+                        </h4>May 12, 2023 4:33 pm
+                    </center>
+                </div>
+                <div class="content">
+                    <center><img src="../images/Pakistan/Parvez-Elahis-medical-certificate.jpg" width="80%"
+                            height="170">
+                        <h4>Parvez Elahi’s medical certificate turned out<br> to be fake, investigation started<br> –
+                            Pakistan
+                        </h4>May 12, 2023 2:32 pm
+                    </center>
+                </div>
+            </div>
+            <div class="group">
+                <div class="content"><br>
+                    <center><img src="../images/Pakistan/Cabinet-meeting-considers-emergency.jpg" width="300"
+                            height="200">
+                        <h4>Cabinet meeting considers emergency, <br>judiciary comes out in defense of<br> Imran Khan,
+                            Prime Minister –
+                            Pakistan
+                        </h4>May 12, 2023 12:29 pm
+                    </center>
+                </div>
+                <div class="content"><br>
+                    <center><img src="../images/Pakistan/If-you-grab-it-by-the-collar-and-pull.jpg" width="83%"
+                            height="200">
+                        <h4>If you grab it by the collar and pull<br> it, chaos will spread among the<br> people, Lahore
+                            High Court –
+                            Pakistan
+                        </h4>May 12, 2023 10:28 am
+                    </center>
+                </div>
+                <div class="content">
+                    <center><img src="../images/Amazing/A-new-pull-up-record.jpg" width="80%" height="180">
+                        <h4>A new 'pull-up' record was<br>set by hanging from a helicopter</h4>March 15, 2023 4:01 pm
+                    </center>
+                </div>
+                <div class="content">
+                    <center><img src="../images/Amazing/The-British-man-announced.jpg" width="85%" height="170">
+                        <h4>The British man announced to<br>run the marathon backwards</h4>March 15, 2023 9:58 am
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="f1">
+                <table width="100%" class="C">
+                    <tr>
+                        <th align="right">About us</th>
+                        <th colspan="10" align="right"><a href="./Pakistan.html" class=""
+                                style="color:rgb(255, 255, 255) ;">Pakistan</a></th>
+                    </tr>
+                    <tr>
+                        <th align="right">Privacy Policy</th>
+                        <th colspan="10" align="right"><a href="./Amazing.html"
+                                style="color:rgb(255, 255, 255) ;">Amazing</a></th>
+                    </tr>
+                    <tr>
+                        <th align="right"><a color="red" href="./Login.html" style="color: rgb(255, 255, 255) ;">Contact
+                                Us</a></th>
+                        <th colspan="5" align="right"><a href="./Headlines.html"
+                                style="color:rgb(255, 255, 255) ;">Latest</a></th>
+                    </tr>
+                    <tr>
+                        <th colspan="5" align="right"><a href="./sports.html" style="color: rgb(255, 255, 255) ;">
+                                Sports</a></th>
+                    </tr>
+                    <tr>
+                        <th colspan="5" align="right"><a href="./Sci&Tec.html"
+                                style="color: rgb(255, 255, 255);">Technology</a>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th colspan="5" align="right"><a href="./health.html"
+                                style="color: rgb(255, 255, 255);">Health</a></th>
+                    </tr>
+                    <tr>
+                        <th colspan="5" align="right"><a href="./Amazing.html"
+                                style="color:rgb(255, 255, 255);">Amazing</a></th>
+                    </tr>
+                </table>
+            </div>
+            <div class="f2">
+                <table width="200" height="190" class="C">
+                    <tr>
+                        <td><br><a href="https://youtube.com"><img src="../images/footer/header/youtube_button.jpg"
+                                    width="28%"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="https://twitter.com"><img src="../images/footer/header/twitter_button.jpg"
+                                    width="25%"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://instagram.com"><img src="../images/footer/header/instagram_button.jpg"
+                                    width="25%"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="https://facebook.com"><img src="../images/footer/header/facebook_button.jpg"
+                                    width="25%"></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

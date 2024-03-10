@@ -1,0 +1,313 @@
+<html>
+
+<head>
+  <style>
+    body {
+      font-size: 28px;
+    }
+
+    .header {
+      background: #000000;
+      ;
+      display: flex;
+      width: 100%;
+      height: 175px;
+      margin: 2px;
+      margin-top: 0px
+    }
+
+    .A {
+      width: 28%;
+      background-color: rgb(0, 0, 0);
+      height: 120px;
+      min-width: 100px;
+      max-width: 150px;
+    }
+
+    .B {
+      width: 28%;
+      margin-left: 2%;
+      background-color: rgb(0, 0, 0);
+      padding: 0.5%;
+      margin-top: 0px;
+      height: 150px;
+      min-width: 150px;
+      max-width: 350px;
+      align-items: right;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      position: -webkit-sticky;
+      /* Safari */
+      position: sticky;
+      top: 0;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 20px 47px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #6a6767;
+    }
+
+    .active {
+      background-color: #4CAF50;
+    }
+
+    .C {
+      color: rgb(255, 255, 255);
+    }
+
+    .group {
+      display: flex;
+      background: rgb(255, 255, 255);
+      width: 100%;
+      height: 385px;
+      margin: 10px auto
+    }
+
+    .content {
+      width: 28%;
+      margin-left: 1%;
+      background-color: rgb(255, 255, 255);
+      padding: 1%;
+      margin-top: 10px;
+      height: 330px;
+      min-width: 120px;
+      max-width: 345px;
+      font-size: 17px;
+      color: rgb(0, 0, 0)
+    }
+
+    #footer {
+      display: flex;
+      background: rgb(0, 0, 0);
+      width: 100%;
+      height: 330px;
+      margin-top: 0px;
+    }
+
+    .C {
+      color: rgb(255, 255, 255);
+    }
+
+    .f1 {
+      display: flex;
+      background: rgb(0, 0, 0);
+      width: 40%;
+      height: 300px;
+      margin: 10px
+    }
+
+    .f2 {
+      display: flex;
+      background: rgb(0, 0, 0);
+      width: 13%;
+      height: 200px;
+      margin-left: 100px;
+      margin-right: 350px;
+      margin-top: 0px
+    }
+
+    body {
+      font-family: "Lato", sans-serif;
+    }
+
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      /* z-index: 1; */
+      top: 0;
+      left: 1340px;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+      float: right;
+    }
+
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+      color: #f1f1f1;
+      background-color: rgb(54, 53, 49);
+    }
+
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {
+        padding-top: 15px;
+      }
+
+      .sidenav a {
+        font-size: 18px;
+      }
+    }
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <title>Sports | News World</title>
+  <div id="main" style="width:95%;height: 1500px;background-color: #000000; margin:0 auto">
+
+    <div style="background-color: #000000; width:100%; height:100px; position:sticky; display:flex; margin-top: -8px;">
+      <a href="./home.html"><img src="../images/title.PNG" Style="margin-left: 25%; width:35%;"></a>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <center>
+          <a href="./home.html">HOME</a>
+          <a href="./Headlines.html">LATEST</a>
+          <a href="./Pakistan.html">PAKISTAN</a>
+          <a href="./Health.html">HEALTH</a>
+          <a href="./Sports.html">SPORTS</a>
+          <a href="./Amazing.html">AMAZING</a>
+          <a href="./Sci&Tec.html">TECHNOLIGY</a>
+          <a href="./Login.html">LOGIN</a>
+        </center>
+      </div>
+      <span style="font-size:60px;cursor:pointer; margin-left: 17%;color: #ffffff; "
+        onclick="openNav()"><b>&#9776;</b></span><br>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "350px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+
+    <div id="wrapper" style=" background: rgb(255, 255, 255);width:100%;height: 1175px;margin-top:0px">
+      <!-- <video height="400px" width="40%" controls autoplay>
+        <source src="../audioVideo/sports_news.mp4" type="video/mp4">
+      </video>
+      <iframe src="./more_news.html" width="59%" height="400"></iframe> -->
+      <div class="group">
+        <div class="content"><br><img src="../images/sports/TheRealPCB.jpg" width="60%">
+          <h4>The names of the support staff for the Pakistan vs Afghanistan T20 series have been revealed</h4>March 14,
+          2023 1:35 pm
+        </div>
+        <div class="content"><br><img src="../images/sports/Najam-Sethi-tweeted.jpg" width="90%">
+          <h4>Najam Sethi tweeted for caretaker Chief Minister of Punjab</h4>March 14, 2023 11:34 am
+        </div>
+        <div class="content"><img src="../images/sports/imran_khan.jpg" width="80%" height="160">
+          <h4>Shahid Afridi expresses happiness on Shadab Khan becoming captain</h4>March 14, 2023 5:31 am
+        </div>
+        <div class="content"><img src="../images/sports/PeshawarZalmis.jpg" width="85%" height="200">
+          <h4>Series against Afghanistan; Shadab Khan appointed captain of the national team</h4>March 13, 2023 11:22 am
+        </div>
+      </div>
+      <div class="group">
+        <div class="content"><br><img src="../images/sports/Babar-Azams-captaincy.jpg" width="300" height="200">
+          <h4>Babar Azam’s captaincy is in danger, who will be the new captain?</h4>March 13, 2023 7:20 am
+        </div>
+        <div class="content"><br><img src="../images/sports/Babar-Azam-refuses-to-rest.jpg" width="90%">
+          <h4>Babar Azam refuses to rest in series against Afghanistan</h4>March 12, 2023 5:10 pm
+        </div>
+        <div class="content"><img src="../images/sports/PSL-8-Karachi-Kings-batting.png" width="85%">
+          <h4>PSL 8: Karachi Kings batting decision against Lahore Qalandars</h4>March 12, 2023 3:09 pm
+        </div>
+        <div class="content"><img src="../images/sports/PSL-8-Peshawar-Zalmi.jpg" width="85%" height="200">
+          <h4>PSL 8: Peshawar Zalmi defeated Islamabad United by 13 runs</h4>March 12, 2023 1:08 pm
+        </div>
+      </div>
+      <div class="group">
+        <div class="content"><br><img src="../images/sports/Multan-Sultans-batsman.jpg" width="300" height="200">
+          <h4>Multan Sultans batsman Usman Khan creates new history in PSL</h4>11, 2023 8:59 pm
+        </div>
+        <div class="content"><br><img src="../images/sports/Babar-and-Rizwan-reject.jpg" width="97%">
+          <h4>Babar and Rizwan reject PCB’s offer</h4>March 11, 2023 6:58 pm
+        </div>
+        <div class="content"><img src="../images/homePage/imran_khan.jpg" width="90%" height="200">
+          <h4>The Supreme Court has scheduled for hearing the petition to accept the resignation of the members of the
+            assembly of (PTI)</h4>March 11, 2023 11:17 am
+        </div>
+        <div class="content"><img src="../images/homePage/PeshawarZalmis.jpg" width="85%" height="200">
+          <h4>Peshawar Zalmi’s target of 243 runs to win Multan Sultans </h4>March 11, 2023 11:17 am
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="f1">
+        <table width="100%" class="C">
+          <tr>
+            <th align="right">About us</th>
+            <th colspan="10" align="right"><a href="./Pakistan.html" class=""
+                style="color:rgb(255, 255, 255) ;">Pakistan</a></th>
+          </tr>
+          <tr>
+            <th align="right">Privacy Policy</th>
+            <th colspan="10" align="right"><a href="./Amazing.html" style="color:rgb(255, 255, 255) ;">Amazing</a></th>
+          </tr>
+          <tr>
+            <th align="right"><a color="red" href="./Login.html" style="color: rgb(255, 255, 255) ;">Contact Us</a></th>
+            <th colspan="5" align="right"><a href="./Headlines.html" style="color:rgb(255, 255, 255) ;">Latest</a></th>
+          </tr>
+          <tr>
+            <th colspan="5" align="right"><a href="./sports.html" style="color: rgb(255, 255, 255) ;"> Sports</a></th>
+          </tr>
+          <tr>
+            <th colspan="5" align="right"><a href="./Sci&Tec.html" style="color: rgb(255, 255, 255);">Technology</a>
+            </th>
+          </tr>
+          <tr>
+            <th colspan="5" align="right"><a href="./health.html" style="color: rgb(255, 255, 255);">Health</a></th>
+          </tr>
+          <tr>
+            <th colspan="5" align="right"><a href="./Amazing.html" style="color:rgb(255, 255, 255);">Amazing</a></th>
+          </tr>
+        </table>
+      </div>
+      <div class="f2">
+        <table width="200" height="190" class="C">
+          <tr>
+            <td><br><a href="https://youtube.com"><img src="../images/footer/header/youtube_button.jpg"
+                  width="28%"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://twitter.com"><img src="../images/footer/header/twitter_button.jpg" width="25%"></a>
+            </td>
+          </tr>
+          <tr>
+            <td><a href="https://instagram.com"><img src="../images/footer/header/instagram_button.jpg"
+                  width="25%"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://facebook.com"><img src="../images/footer/header/facebook_button.jpg" width="25%"></a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+</body>
+
+</html>
