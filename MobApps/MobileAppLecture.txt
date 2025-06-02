@@ -1,6 +1,0 @@
-props-> properties-> customization of components->data pass
-
-props->components
-
-State-> that data that we wants to change,it updates view
-variable-> dosen't update view
